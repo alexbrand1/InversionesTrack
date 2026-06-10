@@ -20,7 +20,7 @@ interface UserProfileDao {
     @Update
     suspend fun update(userProfile: UserProfile)
 
-    // Obtiene el perfil del usuario activo para mostrar en la pantalla principal
+    // Obtiene el perfil de usuario activo para mostrar en la pantalla principal
     @Query("SELECT * FROM user_profile WHERE userId = :userId LIMIT 1")
     fun getByUserId(userId: Long): Flow<UserProfile?>
 

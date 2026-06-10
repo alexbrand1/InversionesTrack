@@ -12,6 +12,7 @@ import kotlinx.coroutines.flow.Flow
 @Dao
 interface SavingsProjectDao {
 
+
     // Crea nuevo proyecto de ahorro
     @Insert(onConflict = OnConflictStrategy.REPLACE)
     suspend fun insert(project: SavingsProject): Long

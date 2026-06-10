@@ -12,7 +12,7 @@ import kotlinx.coroutines.flow.Flow
 @Dao
 interface UserDao {
 
-    // Para registro : devuelve el id generado, útil para crear el UserProfile inmediatamente
+    // Para registro : devuelve id generado, útil para crear el UserProfile inmediatamente
     @Insert(onConflict = OnConflictStrategy.REPLACE)
     suspend fun insert(user: User): Long
 

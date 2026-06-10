@@ -35,7 +35,6 @@ interface InvestmentAccountDao {
     @Query("SELECT * FROM investment_accounts WHERE userId = :userId AND layer = :layer")
     fun getByLayer(userId: Long, layer: InvestmentLayer): Flow<List<InvestmentAccount>>
 
-
     // Suma total del patrimonio para calcular porcentajes de rebalanceo
     @Query("SELECT SUM(amount) FROM investment_accounts WHERE userId = :userId")
     fun getTotalPatrimony(userId: Long): Flow<Double?>

@@ -87,6 +87,7 @@ fun NavGraph(
                 },
                 onNavigateToLayer = { layer ->
                     navController.navigate(layer)
+
                 },
                 onLogout = {
                     authViewModel.logout()
@@ -106,6 +107,7 @@ fun NavGraph(
 
         }
         /*
+
         //
 
         composable(Screen.Emergency.route) { ... }

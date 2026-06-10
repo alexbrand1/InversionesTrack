@@ -9,5 +9,4 @@ enum class InvestmentLayer(val displayName: String) {
     BURSATIL(displayName = "Bursátiles"),
     OTHER_GOALS(displayName = "Alternativos")
 
-
 }

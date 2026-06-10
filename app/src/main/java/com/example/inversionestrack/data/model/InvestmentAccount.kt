@@ -3,8 +3,6 @@ package com.example.inversionestrack.data.model
 import androidx.room.Entity
 import androidx.room.PrimaryKey
 
-
-
 @Entity(tableName = "investment_accounts")
 data class InvestmentAccount(
     @PrimaryKey(autoGenerate = true)

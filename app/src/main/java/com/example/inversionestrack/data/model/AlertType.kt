@@ -6,4 +6,5 @@ enum class AlertType (val displayName: String){
     GOAL_ACHIEVED("Objetivo Alcanzado"),
     GOAL_AT_RISK("Objetivo en Riesgo"),
     OTHER("Otro")
+
 }

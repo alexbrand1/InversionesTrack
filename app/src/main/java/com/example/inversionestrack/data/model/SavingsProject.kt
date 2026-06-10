@@ -10,7 +10,7 @@ data class SavingsProject(
 
     @PrimaryKey(autoGenerate = true)
     val id: Long = 0,
-    val userId: Long,          // FK → User.id
+    val userId: Long,
     val name: String,
     val targetAmount: Double,
     val currentAmount: Double = 0.0,

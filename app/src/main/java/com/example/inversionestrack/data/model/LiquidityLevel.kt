@@ -5,4 +5,5 @@ enum class LiquidityLevel (val displayName: String){
     HIGH(displayName = "Alto"),
     MEDIUM(displayName = "Medio"),
     LOW(displayName = "Bajo")
+
 }

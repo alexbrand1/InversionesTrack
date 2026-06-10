@@ -3,6 +3,7 @@ package com.example.inversionestrack.data.model
 import androidx.room.Entity
 import androidx.room.PrimaryKey
 
+
 // Datos financieros
 @Entity(tableName = "user_profile")
 data class UserProfile(

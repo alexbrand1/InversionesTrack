@@ -12,6 +12,7 @@ data class User(
     val email: String,
     val passwordHash: String,
     val createdAt: Long = System.currentTimeMillis()
+
 )
 
 

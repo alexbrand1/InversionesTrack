@@ -10,4 +10,5 @@ enum class VehicleType(val displayName: String) {
     SAVINGS_ACCOUNT("Cuenta de alta rentabilidad"),
     INSURANCE("Seguro privado de acumulación"),
     OTHER("Otro")
+
 }

@@ -19,7 +19,7 @@ private val LightColorScheme = lightColorScheme(
     onSurfaceVariant = TextDark,
 
 
-)
+    )
 
 @Composable
 fun InversionesTrackTheme(
@@ -30,4 +30,5 @@ fun InversionesTrackTheme(
         typography = Typography,
         content = content
     )
+
 }

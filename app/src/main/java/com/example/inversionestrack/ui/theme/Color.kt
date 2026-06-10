@@ -5,7 +5,6 @@ package com.example.inversionestrack.ui.theme
 import androidx.compose.ui.graphics.Color
 import com.example.inversionestrack.ui.theme.DarkBlue
 
-
 val Green900 = Color(0xFF1B5E20)
 val Green700 = Color(0xFF388E3C)
 val Green500 = Color(0xFF4CAF50)

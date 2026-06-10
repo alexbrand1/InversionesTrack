@@ -91,6 +91,7 @@ fun HomeScreen(
                         imageVector = Icons.AutoMirrored.Filled.Logout,
                         contentDescription = "Cerrar sesión",
                         tint = Color.White
+
                     )
                 }
             }
@@ -104,6 +105,7 @@ fun HomeScreen(
             contentPadding = PaddingValues(16.dp),
             verticalArrangement = Arrangement.spacedBy(12.dp)
         ) {
+
             // Tarjeta bienvenida
             item {
                 Card(

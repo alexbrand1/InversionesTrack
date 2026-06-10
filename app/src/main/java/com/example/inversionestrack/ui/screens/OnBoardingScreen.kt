@@ -28,7 +28,6 @@ fun OnboardingScreen(
 ) {
     val currentUser by authViewModel.currentUser.collectAsState()
     val saveState by viewModel.saveState.collectAsState()
-
     var monthlyIncome by remember { mutableStateOf("") }
     var monthlyExpenses by remember { mutableStateOf("") }
     var currentAge by remember { mutableStateOf("") }

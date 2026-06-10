@@ -172,6 +172,7 @@ fun RegisterScreen(
                     color = MaterialTheme.colorScheme.error,
                     fontSize = 12.sp,
                     modifier = Modifier.align(Alignment.Start)
+
                 )
             }
 

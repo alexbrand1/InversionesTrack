@@ -96,7 +96,6 @@ fun PIScreen(
                             )
                         }
                     }
-
                     // Tarjeta aporte mensual
                     Card(
                         modifier = Modifier.fillMaxWidth(),
